@@ -1,12 +1,12 @@
 package com.br.projetoconversor.principal;
 
-import com.br.projetoconversor.conversordemoedas.ConexaoApi;
+import com.br.projetoconversor.model.InterfaceUsuario;
 
-import java.io.IOException;
+    public class Main {
+        public static void main(String[] args) {
 
-public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
-        ConexaoApi conexaoApi = new ConexaoApi();
-        conexaoApi.abrindorequisicao();
+            InterfaceUsuario interfaceUsuario = new InterfaceUsuario();
+            interfaceUsuario.menu();
+
+        }
     }
-}
